@@ -1,0 +1,38 @@
+/* TransactionHistory.module.css */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+   border: 1px solid black;
+}
+
+
+.tableHead {
+  background-color: #333;
+  color: white;
+}
+
+.tableHeadRowItem {
+  padding: 12px;
+  font-weight: bold;
+   border: 1px solid black
+}
+
+.tableBodyRow {
+  border: 1px solid black;
+}
+
+.tableBodyRow:nth-child(odd) {
+  background-color: white;
+}
+
+.tableBodyRow:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.tableBodyRowItem {
+  padding: 8px;
+  border: 1px solid black;
+}
